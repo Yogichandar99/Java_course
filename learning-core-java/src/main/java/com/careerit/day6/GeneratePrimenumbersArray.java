@@ -17,23 +17,42 @@ public class GeneratePrimenumbersArray
             System.out.print(primeArr[i]+" ");
         }
     }
+    /*
     private static int[] generatePrime(int n)
     {
         int arr[]=new int[n];
         //to generate n prime numbers
-        int i;
-        int x;
-        for(i=1,x=2;i<=n;i++,x++)
+        //int i=0;
+        int x=2;
+       // int l=arr.length;
+        for(int i=0;i<n;i++)
         {
             if(isPrime(x))
             {
                 arr[i]=x;
             }
+            x++;
+        }
+            return arr;
+        }
+*/
+    private static int[] generatePrime(int n) {
+        int arr[] = new int[n];
+        // to generate n prime numbers
+        int i = 0;
+        int x = 2;
+        while (i < n) {
+            if (isPrime(x))
+            {
+                arr[i] = x;
+                i++;
+            }
+            x++;
         }
         return arr;
     }
 
-    static boolean isPrime (int n)
+    private static boolean isPrime (int n)
     {
         // 0, 1 negative numbers are not prime
         if (n < 2)
