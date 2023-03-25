@@ -12,6 +12,10 @@ public class Product
         this.price = price;
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public int getPid() {
         return pid;
     }
@@ -32,5 +36,14 @@ public class Product
         System.out.println("Product id :"+pid);
         System.out.println("Product name: "+name);
         System.out.println("Price: "+price);
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "pid=" + pid +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
     }
 }
