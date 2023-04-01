@@ -1,19 +1,20 @@
-package com.careerit.day15;
+package com.careerit.day16;
 
 public class Account
 {
-   private long accNum;
+   public long accNumber;
     String name;
     double balance;
 
-    public Account(long accNum, String name, double balance) {
-        this.accNum = accNum;
+    public Account(long accNumber, String name, double balance) {
+        this.accNumber = accNumber;
         this.name = name;
         this.balance = balance;
     }
+
     public long getAccNum()
     {
-        return accNum;
+        return accNumber;
     }
     public double withdraw(double amount)
     {
@@ -33,6 +34,6 @@ public class Account
     }
     public void showDetails()
     {
-        System.out.println(String.format("Hi %s your account %s has %s balance",name,accNum,balance));
+        System.out.println(String.format("Hi %s your account %s has %s balance",name,accNumber,balance));
     }
 }
