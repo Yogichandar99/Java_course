@@ -2,43 +2,57 @@ package com.careerit.day14;
 
 public class Account
 {
-    private int accNum;
+    private int accNumber;
     private String name;
     private float balance;
     private static String bankName="SBI";
-
-    public Account(String name, float balance)
+    //A constructor
+    public Account(String name,float balance)
     {
-        this.accNum =AccNumberGenerator.getNewAccNumber();
-        this.name = name;
-        this.balance = balance;
+        this.accNumber=AccNumberGenerator.generateAccNumber();
+        this.name=name;
+        this.balance=balance;
     }
 
-    //As all the values are set to default we need to make accNum public so that it will be accessible
-    //The above operation can be done using getter method
+    public int getAccNumber() {
+        return accNumber;
+    }
 
-    public int getAccNum()
-    {
-        return accNum;
+    public String getName() {
+        return name;
+    }
+
+    public float getBalance() {
+        return balance;
+    }
+
+    public static String getBankName() {
+        return bankName;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accNumber=" + accNumber +
+                ", name='" + name + '\'' +
+                ", balance=" + balance +
+                '}';
     }
     public float withdraw(float amount)
     {
-        if(this.balance>amount)
+        if(balance>amount)
         {
             this.balance-=amount;
         }
-       else
-        {
-            System.out.println("You don't have sufficient balance in your account");
-        }
-       return this.balance;
+        return balance;
     }
     public float deposit(float amount)
     {
-        return this.balance+=amount;
+        this.balance+=amount;
+        return balance;
     }
-    public void showDetails()
+    public void ShowDetails()
     {
-        System.out.println(String.format("Hi %s your account %s at %s has %s balance",name,accNum,bankName,balance));
+        System.out.println(String.format("%s %s %s %s",accNumber,name,balance,bankName));
     }
 }
