@@ -12,11 +12,11 @@ import java.util.List;
 
 public class EmployeeManager
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws CustomException {
         //calling the loadFromFile
         List<Employee> list = loadFromFile();
         list.stream().forEach(System.out::println);
+        //System.out.println(checkBalance(0));
     }
 
     private static List<com.careerit.day21.Employee> loadFromFile()
@@ -59,5 +59,32 @@ public class EmployeeManager
         String gender = arr[4];
         double salary = Double.parseDouble(arr[5]);
         return new Employee(id, firstName, lastName, email, gender, salary);
+    }
+    //here we are need this implementation in future, but right now we dont no how to use it
+    //We are handling this case by throwing an exception explicitly.
+    //Throw- to call an exception explictly
+    //Throws to let the higher stack about possible exceptions
+    private static List<Employee> convertRowtoList(List<String> list)
+    {
+        throw new UnsupportedOperationException("cannot handle right now");
+    }
+    private static void withdrwal(double balance,double amount)
+    {
+        if(balance<amount)
+        {
+            //Here insuffient funds is custom exception which was thrown explictly.
+            throw new InsufficientFundsException("no sufficient funds in the account");
+        }
+        balance-=amount;
+    }
+    //Handling the custom checked exceptions
+    private static double checkBalance(long accNum) throws CustomException
+    {
+        double balance=0;
+        if(accNum==0)
+        {
+            throw new CustomException("account doesn't exist");
+        }
+        return balance;
     }
 }
