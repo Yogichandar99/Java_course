@@ -12,7 +12,10 @@ public class CarManager
     public static void main(String[] args)
     {
         List<Car> carList=carDetailsLoader();
-        System.out.println(carList);
+        for(int i=0;i<carList.size();i++)
+        {
+            System.out.println(carList.get(i));
+        }
 
     }
     //We are taking a method to load the csv file into list(which stores each individual car object)
