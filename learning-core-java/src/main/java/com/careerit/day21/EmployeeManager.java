@@ -10,14 +10,36 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeManager {
+public class EmployeeManager
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         List<Employee> list = loadFromFile();
         list.stream().forEach(System.out::println);
+        //Printing the full names of employees for the obtained list
+        List<String> fullNameList=getFullName(list);
+        for(int i=0;i< fullNameList.size();i++)
+        {
+            System.out.println(fullNameList.get(i));
+        }
     }
 
-    private static List<Employee> loadFromFile(){
+    //Writing a function to get the full names
+    private static List<String> getFullName(List<Employee> list)
+    {
+        List<String> fullName=new ArrayList<>();
+        for(Employee emp:list)
+        {
+            String fName=emp.getFirstName()+" "+emp.getLastName();
+            fullName.add(fName);
+
+        }
+        return fullName;
+    }
+
+    private static List<Employee> loadFromFile()
+    {
 
         List<Employee> empList = new ArrayList<>();
         try{
@@ -46,17 +68,6 @@ public class EmployeeManager {
         return new Employee(id, firstName, lastName, email, gender, salary);
     }
 
-    private static List<Employee> convertRowsToList(List<String> list){
-        throw new UnsupportedOperationException("This operation is not supported");
-    }
-
-    private static double withdraw(double balance,double amount){
-        if(balance < amount){
-            throw new InsufficientFundsException("Insufficient funds");
-        }
-        balance-=amount;
-        return balance;
-    }
 }
 
 
