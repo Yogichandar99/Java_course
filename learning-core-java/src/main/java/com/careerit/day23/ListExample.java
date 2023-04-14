@@ -14,6 +14,8 @@ public class ListExample
         //List is ordered collection
         //List retrieves the elements in the order we have stored.
         List<Integer> list1=List.of(1,2,3,4,5,6,1,2,4);
+        //We can retrieve the data using traditional for loop
+
 
 
     }
