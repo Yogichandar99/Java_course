@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added set Examples and list optimization exaples to day 23">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-core-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-core-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-core-java/src/main/java/com/careerit/day22/PlayerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-jdbc/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N3eEd9RFzAgkOdgxnVshxcl6Ao" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/boppa/git_ws/Java_training/learning-core-java/src/main/java/com/careerit&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\boppa\git_ws\Java_training\learning-core-java\src\main\java\com\careerit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SetExample">
+    <configuration name="JsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.day24.JsonExample" />
+      <module name="learning-core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.careerit.day24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.day24.JsonExample2" />
+      <module name="learning-core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.careerit.day24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.day23.ListExample" />
+      <module name="learning-core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.careerit.day23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.day23.ListExample2" />
+      <module name="learning-core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.careerit.day23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.day23.SetExample" />
+      <module name="learning-core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.careerit.day23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maven" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.JsonExample" />
+      <item itemvalue="Application.JsonExample2" />
+      <item itemvalue="Application.ListExample" />
+      <item itemvalue="Application.ListExample2" />
+      <item itemvalue="Application.SetExample" />
+      <item itemvalue="Maven.maven" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SetExample" />
+        <item itemvalue="Application.ListExample2" />
+        <item itemvalue="Application.ListExample" />
+        <item itemvalue="Application.JsonExample2" />
+        <item itemvalue="Application.JsonExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="" />
+      <created>1678897085056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678897085056</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New commits march 15">
+      <created>1678898176591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678898176591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added new class hijava to day 3">
+      <created>1678898586366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678898586366</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added new class hellojava to day 3">
+      <created>1678898922262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678898922262</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new class SumOfNNaturalNumbers.java to day 3">
+      <created>1678900573137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678900573137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added other example problems solved as part of day 3">
+      <created>1678923257895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678923257895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added initial files on nested loops for day4 practice.">
+      <created>1678923742718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678923742718</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added day 4 additional programs">
+      <created>1679005935384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679005935384</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added day 5(initial commit)">
+      <created>1679006218945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679006218945</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added day 5 additional programs">
+      <created>1679013308923</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679013308923</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added day 5 additional programs and day6 programs">
+      <created>1679255084737</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679255084737</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modified CharacterCheck.java in Day 2">
+      <created>1679259233168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679259233168</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added additional programs">
+      <created>1679283544800</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679283544800</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added day 7 programs.">
+      <created>1679412794409</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679412794409</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added modified code.">
+      <created>1679591715080</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679591715080</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added additional programs to string class.">
+      <created>1679599523635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679599523635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added day 9 programs(OOPS concepts and constructor overloading)">
+      <created>1679611353259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679611353259</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added day 11 programs(concepts on access modifiers).">
+      <created>1679683414178</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679683414178</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added day 10 programs(concepts on ArrayLists-player,player services).">
+      <created>1679775512743</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679775512743</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added day 12 programs(concepts on StaticBlocks).">
+      <created>1679803911303</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679803911303</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added Multiple choice question programs.">
+      <created>1679959384753</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679959384753</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added player.csv">
+      <created>1679963624294</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679963624294</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added Instance Initializer examples to day 13">
+      <created>1680109795127</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680109795127</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added AccountManager and RemoteManager examples to day 14">
+      <created>1680196611315</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196611315</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Method overriding examples to day 15">
+      <created>1680283043301</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680283043301</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added Method overriding examples to day 16">
+      <created>1680392984453</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680392984453</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added Abstract class and final keyword examples to day 17">
+      <created>1680562050353</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1680562050353</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Modified Account Services in day 14">
+      <created>1680650228278</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1680650228278</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added interface examples to day 18">
+      <created>1680738767196</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680738767196</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added Functional interface examples and Anonymous classes,Lambda function and exceptions to day 19">
+      <created>1681166953725</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681166953726</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added Exception examples to day20">
+      <created>1681167114340</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681167114341</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added day 20 and day 21 examples">
+      <created>1681248528359</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681248528359</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added Exception examples to day 20">
+      <created>1681257591086</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681257591086</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added List examples to day 21">
+      <created>1681258383203</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681258383203</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added third party import example (solved an example of player services) to day 22">
+      <created>1681318239871</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681318239871</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added PlayerServices to day 22">
+      <created>1681419372135</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681419372135</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added Map example to day 24 and modified playerServices in day 22">
+      <created>1681439374130</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681439374130</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added set Examples and list optimization exaples to day 23">
+      <created>1681759481893</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681759481893</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added day 7 programs." />
+    <MESSAGE value="Added modified code." />
+    <MESSAGE value="Added additional programs to string class." />
+    <MESSAGE value="Added day 9 programs(OOPS concepts and constructor overloading)" />
+    <MESSAGE value="Added day 11 programs(concepts on access modifiers)." />
+    <MESSAGE value="Added day 10 programs(concepts on ArrayLists-player,player services)." />
+    <MESSAGE value="Added day 12 programs(concepts on StaticBlocks)." />
+    <MESSAGE value="Added Multiple choice question programs." />
+    <MESSAGE value="Added player.csv" />
+    <MESSAGE value="Added Instance Initializer examples to day 13" />
+    <MESSAGE value="Added AccountManager and RemoteManager examples to day 14" />
+    <MESSAGE value="Added Method overriding examples to day 15" />
+    <MESSAGE value="Added Method overriding examples to day 16" />
+    <MESSAGE value="Added Abstract class and final keyword examples to day 17" />
+    <MESSAGE value="Modified Account Services in day 14" />
+    <MESSAGE value="Added interface examples to day 18" />
+    <MESSAGE value="Added Functional interface examples and Anonymous classes,Lambda function and exceptions to day 19" />
+    <MESSAGE value="Added Exception examples to day20" />
+    <MESSAGE value="Added day 20 and day 21 examples" />
+    <MESSAGE value="Added Exception examples to day 20" />
+    <MESSAGE value="Added List examples to day 21" />
+    <MESSAGE value="Added third party import example (solved an example of player services) to day 22" />
+    <MESSAGE value="Added PlayerServices to day 22" />
+    <MESSAGE value="Added Map example to day 24 and modified playerServices in day 22" />
+    <MESSAGE value="Added set Examples and list optimization exaples to day 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added set Examples and list optimization exaples to day 23" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
