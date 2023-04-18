@@ -9,6 +9,7 @@
     <modules>
         <module>learning-core-java</module>
         <module>learning-jdbc</module>
+        <module>cj-project-1</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

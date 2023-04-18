@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added set Examples and list optimization exaples to day 23">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-core-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-core-java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-core-java/src/main/java/com/careerit/day22/PlayerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-jdbc/pom.xml" afterDir="false" />
+    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added additional files">
+      <change afterPath="$PROJECT_DIR$/cj-project-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/PlayerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/RoleAmountStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/TeamAmountStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/TeamBasicDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/TeamRoleCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/domain/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/domain/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/service/IplServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/service/IplStatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/util/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/resources/player.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/resources/team.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +59,37 @@
     </option>
   </component>
   <component name="ProjectId" id="2N3eEd9RFzAgkOdgxnVshxcl6Ao" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/boppa/git_ws/Java_training/learning-core-java/src/main/java/com/careerit&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/boppa/git_ws/Java_training/learning-core-java/src/main/java/com/careerit",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\boppa\git_ws\Java_training\learning-core-java\src\main\java\com\careerit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\boppa\git_ws\Java_training\cj-project-1\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SetExample">
-    <configuration name="JsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.day24.JsonExample" />
+  <component name="RunManager" selected="Application.JsonReader">
+    <configuration name="JsonExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.day24.JsonExample2" />
       <module name="learning-core-java" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.day24.JsonExample2" />
-      <module name="learning-core-java" />
+    <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.iplstats.util.JsonReader" />
+      <module name="cj-project-1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.careerit.day24.*" />
+          <option name="PATTERN" value="com.careerit.iplstats.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,8 +180,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.JsonExample" />
       <item itemvalue="Application.JsonExample2" />
+      <item itemvalue="Application.JsonReader" />
       <item itemvalue="Application.ListExample" />
       <item itemvalue="Application.ListExample2" />
       <item itemvalue="Application.SetExample" />
@@ -175,11 +189,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonReader" />
         <item itemvalue="Application.SetExample" />
         <item itemvalue="Application.ListExample2" />
         <item itemvalue="Application.ListExample" />
         <item itemvalue="Application.JsonExample2" />
-        <item itemvalue="Application.JsonExample" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681759481893</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added additional files">
+      <created>1681759601061</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681759601061</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +487,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added day 7 programs." />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added modified code." />
     <MESSAGE value="Added additional programs to string class." />
     <MESSAGE value="Added day 9 programs(OOPS concepts and constructor overloading)" />
@@ -491,7 +512,8 @@
     <MESSAGE value="Added PlayerServices to day 22" />
     <MESSAGE value="Added Map example to day 24 and modified playerServices in day 22" />
     <MESSAGE value="Added set Examples and list optimization exaples to day 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added set Examples and list optimization exaples to day 23" />
+    <MESSAGE value="Added additional files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
