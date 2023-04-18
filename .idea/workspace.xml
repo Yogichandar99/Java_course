@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added additional files">
+    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added IplStats Module">
       <change afterPath="$PROJECT_DIR$/cj-project-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/PlayerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/RoleAmountStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/TeamAmountStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/TeamBasicDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/Dto/TeamRoleCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/domain/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/domain/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/service/IplServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/service/IplStatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/java/com/careerit/iplstats/util/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/resources/player.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cj-project-1/src/main/resources/team.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -472,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681759601061</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added IplStats Module">
+      <created>1681844936758</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681844936758</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,7 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added modified code." />
     <MESSAGE value="Added additional programs to string class." />
     <MESSAGE value="Added day 9 programs(OOPS concepts and constructor overloading)" />
     <MESSAGE value="Added day 11 programs(concepts on access modifiers)." />
@@ -513,7 +506,8 @@
     <MESSAGE value="Added Map example to day 24 and modified playerServices in day 22" />
     <MESSAGE value="Added set Examples and list optimization exaples to day 23" />
     <MESSAGE value="Added additional files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added additional files" />
+    <MESSAGE value="Added IplStats Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IplStats Module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
