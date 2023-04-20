@@ -11,6 +11,7 @@
         <module>learning-jdbc</module>
         <module>cj-project-1</module>
         <module>wallet-app</module>
+        <module>emp-app</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
