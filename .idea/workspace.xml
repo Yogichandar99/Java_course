@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added Wallet module">
-      <change afterPath="$PROJECT_DIR$/emp-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/Dto/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/Util/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/domain/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/services/EmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/services/EmployeeServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/java/com/careerit/services/ShowDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/resources/common-currency.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/resources/currency.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emp-app/src/main/resources/emp.json" afterDir="false" />
+    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added employee application module.">
+      <change afterPath="$PROJECT_DIR$/learning-core-java/src/main/resources/SqlAssignemnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-core-java/src/main/resources/SqlQuestions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-jdbc/src/main/java/com/careerit/cj/jdbc/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-jdbc/src/main/java/com/careerit/cj/jdbc/Manager1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-jdbc/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-jdbc/src/main/java/com/careerit/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +93,7 @@
       <recent name="C:\Users\boppa\git_ws\Java_training\cj-project-1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeManager">
+  <component name="RunManager" selected="Application.Manager1">
     <configuration name="EmployeeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.careerit.services.EmployeeManager" />
       <module name="emp-app" />
@@ -125,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.day23.SetExample" />
-      <module name="learning-core-java" />
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.cj.jdbc.Manager" />
+      <module name="learning-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.careerit.day23.*" />
+          <option name="PATTERN" value="com.careerit.cj.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalletManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.service.WalletManager" />
-      <module name="wallet-app" />
+    <configuration name="Manager1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.cj.jdbc.Manager1" />
+      <module name="learning-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.careerit.service.*" />
+          <option name="PATTERN" value="com.careerit.cj.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,20 +186,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Manager" />
+      <item itemvalue="Application.Manager1" />
       <item itemvalue="Application.EmployeeManager" />
       <item itemvalue="Application.com.careerit.Util.JsonReader" />
-      <item itemvalue="Application.WalletManager" />
       <item itemvalue="Application.JsonReader" />
-      <item itemvalue="Application.SetExample" />
       <item itemvalue="Maven.maven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Manager1" />
+        <item itemvalue="Application.Manager" />
         <item itemvalue="Application.EmployeeManager" />
         <item itemvalue="Application.com.careerit.Util.JsonReader" />
         <item itemvalue="Application.JsonReader" />
-        <item itemvalue="Application.WalletManager" />
-        <item itemvalue="Application.SetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681863814653</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Added employee application module.">
+      <created>1681949039447</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681949039447</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +522,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added day 11 programs(concepts on access modifiers)." />
     <MESSAGE value="Added day 10 programs(concepts on ArrayLists-player,player services)." />
     <MESSAGE value="Added day 12 programs(concepts on StaticBlocks)." />
     <MESSAGE value="Added Multiple choice question programs." />
@@ -545,7 +546,8 @@
     <MESSAGE value="Added IplStats Module" />
     <MESSAGE value="Added pom.xml file" />
     <MESSAGE value="Added Wallet module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Wallet module" />
+    <MESSAGE value="Added employee application module." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added employee application module." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
