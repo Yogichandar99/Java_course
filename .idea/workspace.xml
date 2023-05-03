@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added employee application module.">
-      <change afterPath="$PROJECT_DIR$/learning-core-java/src/main/resources/SqlAssignemnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-core-java/src/main/resources/SqlQuestions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-jdbc/src/main/java/com/careerit/cj/jdbc/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-jdbc/src/main/java/com/careerit/cj/jdbc/Manager1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-jdbc/src/main/resources/db.properties" afterDir="false" />
+    <list default="true" id="78ca9902-d5c0-4b5e-a4f5-9739a7097736" name="Changes" comment="Added enum examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-jdbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-jdbc/src/main/java/com/careerit/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -93,13 +87,13 @@
       <recent name="C:\Users\boppa\git_ws\Java_training\cj-project-1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Manager1">
-    <configuration name="EmployeeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.services.EmployeeManager" />
-      <module name="emp-app" />
+  <component name="RunManager" selected="Application.AnnotationExample">
+    <configuration name="AnnotationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.enumExamples.AnnotationExample" />
+      <module name="learning-core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.careerit.services.*" />
+          <option name="PATTERN" value="com.careerit.enumExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.iplstats.util.JsonReader" />
-      <module name="cj-project-1" />
+    <configuration name="ContactApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.cj.jdbc.ContactApplication" />
+      <module name="learning-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.careerit.iplstats.util.*" />
+          <option name="PATTERN" value="com.careerit.cj.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +114,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.cj.jdbc.Manager" />
+    <configuration name="ContactManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.cj.jdbc.ContactManager" />
+      <module name="learning-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.careerit.cj.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.careerit.cj.jdbc.JDBCConnectionExample" />
       <module name="learning-jdbc" />
       <extension name="coverage">
         <pattern>
@@ -139,19 +146,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.careerit.cj.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.careerit.Util.JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.careerit.Util.JsonReader" />
-      <module name="emp-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.careerit.Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,20 +180,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Manager" />
+      <item itemvalue="Application.AnnotationExample" />
+      <item itemvalue="Application.ContactApplication" />
+      <item itemvalue="Application.ContactManager" />
+      <item itemvalue="Application.JDBCConnectionExample" />
       <item itemvalue="Application.Manager1" />
-      <item itemvalue="Application.EmployeeManager" />
-      <item itemvalue="Application.com.careerit.Util.JsonReader" />
-      <item itemvalue="Application.JsonReader" />
       <item itemvalue="Maven.maven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationExample" />
+        <item itemvalue="Application.ContactManager" />
+        <item itemvalue="Application.ContactApplication" />
+        <item itemvalue="Application.JDBCConnectionExample" />
         <item itemvalue="Application.Manager1" />
-        <item itemvalue="Application.Manager" />
-        <item itemvalue="Application.EmployeeManager" />
-        <item itemvalue="Application.com.careerit.Util.JsonReader" />
-        <item itemvalue="Application.JsonReader" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +500,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681949039447</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Added Sql assignment Questions and JDBC module.">
+      <created>1682379734895</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682379734895</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added contact Manager as an example of JDBC.">
+      <created>1682702192507</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682702192507</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added enum examples">
+      <created>1682913901695</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682913901696</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,9 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added day 10 programs(concepts on ArrayLists-player,player services)." />
-    <MESSAGE value="Added day 12 programs(concepts on StaticBlocks)." />
-    <MESSAGE value="Added Multiple choice question programs." />
     <MESSAGE value="Added player.csv" />
     <MESSAGE value="Added Instance Initializer examples to day 13" />
     <MESSAGE value="Added AccountManager and RemoteManager examples to day 14" />
@@ -547,7 +559,10 @@
     <MESSAGE value="Added pom.xml file" />
     <MESSAGE value="Added Wallet module" />
     <MESSAGE value="Added employee application module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added employee application module." />
+    <MESSAGE value="Added Sql assignment Questions and JDBC module." />
+    <MESSAGE value="Added contact Manager as an example of JDBC." />
+    <MESSAGE value="Added enum examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added enum examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
