@@ -41,3 +41,5 @@ let mulOfArray=perform(arr,mul)
 console.log(mulOfArray);
 let sumOfArray=perform(arr,add)
 console.log(sumOfArray);
+let biggest=perform(arr,a>b?a:b);
+console.log(biggest);
